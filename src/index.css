@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    /* ## Colors
+
+    ### Primary */
+
+    --Moderate-blue: hsl(238, 40%, 52%);
+    --Soft-Red: hsl(358, 79%, 66%);
+    --Light-grayish-blue: hsl(239, 57%, 85%);
+    --Pale-red: hsl(357, 100%, 86%);
+
+    /* ### Neutral */
+
+    --Dark-blue: hsl(212, 24%, 26%);
+    --Grayish-Blue: hsl(211, 10%, 45%);
+    --Light-gray: hsl(223, 19%, 93%);
+    --Very-light-gray: hsl(228, 33%, 97%);
+    --White: hsl(0, 0%, 100%);
+
+    /* ### Body Copy */
+    /* (paragraph) */
+    --font-size : 16px;
+
+    /* ### Font */
+
+    --font-family: "Rubik", sans-serif;
+    --weights-regular: 400;
+    --weights-medium: 500;
+    --weights-large: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+li,ul{
+    list-style: none;
+}
+    
+
+html{
+    font-size: 16px;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+
+@media screen  and (max-width:750px){
+    .margin{
+        margin: 6% 5%;
+    }
+} 
+
+@media screen  and (max-width:600px){
+    .desktopview{
+        display: none;
+    }
+    .mobileview{
+        display: flex;
+    }
+    .bubble__container-reply{
+        margin-left: 0;
+        padding-left: 1rem;
+    }
+    .profile textarea{
+        margin: 0;
+    }
+}
+@media screen  and (max-width:380px){
+    .margin{
+        width: 90%;
+    }
+
+    .modal-container p{
+        margin: 1rem 0;
+    }
+
+    .modal-buttons button{
+        width: 6.5rem;
+        height: 2rem;
+    }
+}
+
+@media screen  and (max-width:320px){
+    .margin{
+        width: 30rem;
+    }
+    #modal{
+        min-width:18rem;
+    }
+}
