@@ -1,4 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type";
 import { useCommentreducer } from "./context_and_reducer";
 import { createContext } from "react";
 
