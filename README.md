@@ -2,4 +2,5 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Working with my spaghetti codes
+### Live site
+https://idyllic-liger-90bf6d.netlify.app/
